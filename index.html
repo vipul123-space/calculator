@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="shortcut icon" type="image/png" href="css/claculator.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="main-section">
+      <h1 class="main-heading">Calculator using javascript</h1>
+      <div class="calc-section">
+        <div class="container">
+          <div class="history"></div>
+          <div class="result"></div>
+        </div>
+        <table>
+          <tr class="table-data">
+            <td class="operation">
+              <button class="btn special-btn clear">AC</button>
+            </td>
+            <td class="operation">
+              <button class="btn backspace">
+                <ion-icon
+                  class="special-btn"
+                  name="backspace-outline"
+                ></ion-icon>
+              </button>
+            </td>
+            <td class="operation">
+              <button class="btn special-btn operator">%</button>
+            </td>
+
+            <td class="operation">
+              <button class="btn special-btn operator">/</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="operation 7"><button class="btn num">7</button></td>
+            <td class="operation 8"><button class="btn num">8</button></td>
+            <td class="operation 9"><button class="btn num">9</button></td>
+            <td class="operation">
+              <button class="btn special-btn operator">*</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="operation"><button class="btn num">4</button></td>
+            <td class="operation"><button class="btn num">5</button></td>
+            <td class="operation"><button class="btn num">6</button></td>
+            <td class="operation">
+              <button class="btn special-btn operator">-</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="operation"><button class="btn num">1</button></td>
+            <td class="operation"><button class="btn num">2</button></td>
+            <td class="operation"><button class="btn num">3</button></td>
+            <td class="operation">
+              <button class="btn special-btn operator">+</button>
+            </td>
+          </tr>
+          <tr>
+            <td class="operation"><button class="btn num">0</button></td>
+            <td class="operation">
+              <button class="btn special-btn operator">.</button>
+            </td>
+            <td class="operation" colspan="2">
+              <button class="btn big-btn">=</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
